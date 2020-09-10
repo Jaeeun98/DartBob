@@ -1,0 +1,265 @@
+body {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight:400;
+    text-align:center;
+}
+
+a {
+    color:#555;
+}
+
+/*header*/
+
+header {
+    display:flex;
+    justify-content:space-between;
+    padding:0 20px;
+}
+.logo img {
+    width: 270px;
+    height:120px;
+    margin-top:30px;
+    margin-left:22%;
+}
+
+header ul {
+    display:flex;
+}
+
+.snsIcon {
+    padding-left:10px;
+}
+
+.snsIcon li {
+    padding:20px;
+}
+
+.userIcon li {
+    padding:20px 30px;
+}
+
+header img {
+    width:20px;
+    height:20px
+}
+
+/*nav*/
+
+nav {
+    padding-top:50px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    width:17%;
+    text-align:center;
+}
+
+nav ul li a {
+    display:inline-block;
+    width:100%;
+    padding:30px 0;
+    font-weight:700;
+    transition:background 1s ;
+}
+
+nav ul li a:hover {
+    background:#eee;
+}
+
+/*section_slide*/
+
+.slide ul {
+    display:flex;
+}
+
+.slide {
+    overflow: hidden;
+    position: relative;
+}
+
+.slideImg {
+    width:500%;
+}
+
+.slideImg > li {
+    width:100%;
+}
+
+.slideImg > li > a {
+    width:100%;
+}
+
+.slideImg > li > a > img {
+    width:100%;
+}
+
+.circleBtn {
+    position: absolute;
+    bottom:5%;
+    left:45%;
+}
+
+.circleBtn li {
+    padding:10px;
+}
+
+.circle {
+    display: inline-block;
+    width:15px;
+    height:15px;
+    border-radius: 50%;
+    border:1.5px solid #ccc;
+    cursor: pointer;
+    transition:background 1s;
+}
+
+.circle:hover {
+    background:#ccc;
+}
+
+
+/*section_best*/
+
+.best img, .review img {
+    width:100%;
+    transition:transform 1s;
+}
+
+.best img:hover {
+    transform:scale(1.1);
+}
+
+.review img:hover {
+    transform:scale(1.1);
+}
+
+section h1 {
+    padding-top:60px;
+    font-weight:800;
+    font-size:20px;
+}
+
+.more {
+    text-align:right;
+    padding-right:18%;
+    padding-bottom:40px;
+}
+
+.more a {
+    cursor: pointer;
+    transition:all 1s;
+}
+
+.more a:hover{
+    color:#ccc;
+}
+
+.bestBox {
+    padding:0 15%;
+    display: flex;
+    justify-content:space-around;
+}
+
+.bestBox > li {
+    width:28%;
+    overflow: hidden;
+    padding-bottom:80px;
+    cursor: pointer;
+}
+
+.bestBox p {
+    display: flex;
+    justify-content: space-between;
+    margin:15px 5px;
+    font-size:14px;
+
+}
+
+.red {
+    color: #EB3E00;
+    font-weight: 600;
+}
+
+.fas {
+    color:#ccc;
+}
+
+/*section_review*/
+
+.review {
+    position: relative;
+}
+
+.review h1 {
+    padding-bottom:40px;
+}
+
+.reviewImg {
+    display: flex;
+    justify-content: center;
+}
+
+.reviewImg li {
+    width:13.5%;
+    padding:0.5%;
+}
+
+.banner {
+    width:100%;
+    padding-top:10%;
+}
+
+.top {
+    width:50px;
+    height:50px;
+    border:1px solid #ccc;
+    border-radius: 50%;
+    line-height: 3.2;
+    position: absolute;
+    bottom:-30%;
+    right:8%;
+    transition:background 1s;
+    cursor: pointer;
+}
+
+.top:hover {
+    background:#ccc;
+    color:#fff;
+}
+
+/*footer*/
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    line-height:2.5;
+    padding:20px 0;
+}    
+
+footer div {
+    height:160px;
+    width:33%;
+}
+
+footer div:nth-child(2) {
+    padding-top:2.5%;
+}
+
+footer div:last-child {
+    padding-top:1%;
+}
+
+footer div:not(:last-child) {
+    border-right:1px solid #ccc;
+}
+
+footer h3 {
+    font-weight: 800;
+}
+
+
