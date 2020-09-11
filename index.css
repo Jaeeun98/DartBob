@@ -309,15 +309,22 @@ footer h3 {
     font-weight: 800;
 }
 
-/*900px*/
+/*1024px*/
 
-@media(max-width:900px){
-    .top {
-        bottom:-20%;
+@media(max-width:1024px){
+
+    /*section_review*/
+    .review h1 {
+        padding:0;
     }
 
+    /*footer*/
     footer {
         font-size:13px;
+    }
+
+    footer div:nth-child(2) {
+        padding-top:4%;
     }
 
     footer div:last-child {
@@ -325,10 +332,9 @@ footer h3 {
     }
 }
 
+/*768px*/
 
-/*750px*/
-
-@media(max-width:750px){
+@media(max-width:768px){
     /*header*/
     header {
         padding:0;
@@ -372,10 +378,6 @@ footer h3 {
     }
 
     /*section_review*/
-    .review h1 {
-        padding:0;
-    }
-    
     .reviewImg li {
         width:17%;
     }
