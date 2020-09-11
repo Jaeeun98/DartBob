@@ -262,4 +262,25 @@ footer h3 {
     font-weight: 800;
 }
 
+/*900px*/
 
+@media(max-width:900px){
+    .top {
+        bottom:-20%;
+    }
+
+    footer {
+        font-size:13px;
+    }
+
+    footer div:last-child {
+        padding-top:2%;
+    }
+}
+
+
+/*750px*/
+
+@media(max-width:750px){
+
+}
