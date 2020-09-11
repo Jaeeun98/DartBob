@@ -329,5 +329,59 @@ footer h3 {
 /*750px*/
 
 @media(max-width:750px){
+    /*header*/
+    header {
+        padding:0;
+    }
 
+    .logo img {
+        margin:0;
+        width:180px;
+        height:80px;
+    }
+
+    .snsIcon {
+        display:none;
+    }
+    .userIcon li {
+        padding:25px 15px;
+    }
+
+    /*nav*/
+    nav {
+        padding-top:10px;
+    }
+
+    /*section_slide*/
+    .circle {
+        width:13px;
+        height:13px;
+    }
+
+    .circleBtn {
+        left:40%;
+        bottom:1%;
+    }
+
+    /*section_best*/
+    .bestBox {
+        padding:0 5%;
+    }
+    .more {
+        padding-right: 10%;
+    }
+
+    /*section_review*/
+    .review h1 {
+        padding:0;
+    }
+    
+    .reviewImg li {
+        width:17%;
+    }
+
+    .top {
+        bottom:-28%;
+        right:1%;
+    }
 }
