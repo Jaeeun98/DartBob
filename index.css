@@ -189,6 +189,53 @@ section h1 {
     color:#ccc;
 }
 
+/*modal*/
+
+.modal {
+    border:1px solid #ccc;
+    width:25%;
+    padding:20px;
+    border-radius: 10px;
+    position: fixed;
+    top:30%;
+    left:37.5%;
+    background:#fff;
+    display:none;
+}
+
+.modal img {
+    width:100%;
+}
+
+.modal ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size:15px;
+}
+
+.modal ul li:first-child {
+    width:40%;
+}
+
+.modal ul li:last-child {
+    width:60%;
+    padding-left:13px;
+}
+
+.modal p {
+    padding-top:20px;
+}
+
+.modal p a {
+    transition:all 1s;
+    font-weight: 800px;
+}
+
+.modal p a:hover {
+    color:#ccc;
+}
+
 /*section_review*/
 
 .review {
