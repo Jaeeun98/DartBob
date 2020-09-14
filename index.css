@@ -163,6 +163,7 @@ section h1 {
     padding:0 15%;
     display: flex;
     justify-content:space-around;
+    flex-wrap: wrap;
 }
 
 .bestBox > li {
@@ -378,12 +379,44 @@ footer h3 {
     }
 
     /*section_review*/
+    .review {
+        margin-bottom:20px;
+    }
+
     .reviewImg li {
         width:17%;
     }
 
     .top {
-        bottom:-28%;
+        bottom:-33%;
         right:1%;
     }
 }
+
+/*540px*/
+
+@media(max-width:540px) {
+    .bestBox > li {
+        width:45%;
+    }
+
+    .top {
+        width:40px;
+        height:40px;
+        line-height:3;
+        font-size:13px;
+    }
+
+    footer {
+        font-size:10px;
+    }
+
+    footer div {
+        height:100px;
+        
+    }
+    footer div:not(:first-child) {
+        padding-top:2.5%;
+    }
+
+}    
