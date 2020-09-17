@@ -327,6 +327,11 @@ footer h3 {
     .review h1 {
         padding:0;
     }
+    
+    /*modal*/
+    .modal ul, .modal p {
+        font-size:11px;
+    }
 
     /*footer*/
     footer {
@@ -395,7 +400,19 @@ footer h3 {
     .reviewImg li {
         width:17%;
     }
+    
+    /*modal*/
+    .modal {
+        width:50%;
+        left:25%;
+        
+    }
+    
+    .modal ul, .modal p {
+        font-size:15px;
+    }
 
+    /*top*/
     .top {
         bottom:-33%;
         right:1%;
@@ -405,10 +422,12 @@ footer h3 {
 /*540px*/
 
 @media(max-width:540px) {
+    /*best*/
     .bestBox > li {
         width:45%;
     }
 
+    /*top*/
     .top {
         width:40px;
         height:40px;
@@ -416,6 +435,7 @@ footer h3 {
         font-size:13px;
     }
 
+    /*footer*/
     footer {
         font-size:10px;
     }
