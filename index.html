@@ -41,27 +41,27 @@
     <section>
         <div class="slide">
             <ul class="slideImg">
-                <li><a href=""><img src="img/slide1.png" alt="chickenBreast"></a></li>
-                <li><a href=""><img src="img/slide2.png" alt="dietLunchBox"></a></li>
-                <li><a href=""><img src="img/slide3.png" alt="konjacNoodles"></a></li>
-                <li><a href=""><img src="img/slide4.png" alt="freeShipping"></a></li>
-                <li><a href=""><img src="img/slide5.png" alt="tea"></a></li>
+                <li class="jsSlide"><a href=""><img src="img/slide1.png" alt="chickenBreast"></a></li>
+                <li class="jsSlide"><a href=""><img src="img/slide2.png" alt="dietLunchBox"></a></li>
+                <li class="jsSlide"><a href=""><img src="img/slide3.png" alt="konjacNoodles"></a></li>
+                <li class="jsSlide"><a href=""><img src="img/slide4.png" alt="freeShipping"></a></li>
+                <li class="jsSlide"><a href=""><img src="img/slide5.png" alt="tea"></a></li>
             </ul>
             <ul class="circleBtn">
                 <li>
-                    <span class="circle"></span>
+                    <span class="circle" onclick="dotSlide(0)"></span>
                 </li>
                 <li>
-                    <span class="circle"></span>
+                    <span class="circle" onclick="dotSlide(1)"></span>
                 </li>
                 <li>
-                    <span class="circle"></span>
+                    <span class="circle" onclick="dotSlide(2)"></span>
                 </li>
                 <li>
-                    <span class="circle"></span>
+                    <span class="circle" onclick="dotSlide(3)"></span>
                 </li>
                 <li>
-                    <span class="circle"></span>
+                    <span class="circle" onclick="dotSlide(4)"></span>
                 </li>
             </ul>
         </div>
@@ -76,7 +76,7 @@
                     <p>
                         <span class="red">[간편한 한끼 모음]</span>
                         <span>
-                            <i class="fas fa-heart"></i>
+                            <i class="fas fa-heart" onclick="handleModal(0)"></i>
                         </span>
                     </p>
                     <p>
@@ -91,7 +91,7 @@
                     <p>
                         <span class="red">[특가 30% 할인 이벤트]</span>
                         <span>
-                            <i class="fas fa-heart"></i>
+                            <i class="fas fa-heart" onclick="handleModal(1)"></i>
                         </span>
                     </p>
                     <p>
@@ -106,7 +106,7 @@
                     <p>
                         <span class="red">[독소 제거하기]</span>
                         <span>
-                            <i class="fas fa-heart"></i>
+                            <i class="fas fa-heart" onclick="handleModal(2)"></i>
                         </span>
                     </p>
                     <p>
@@ -121,7 +121,7 @@
                         <p>
                         <span class="red">[1+1 특가 이벤트]</span>
                         <span>
-                            <i class="fas fa-heart"></i>
+                            <i class="fas fa-heart" onclick="handleModal(3)"></i>
                         </span>
                     </p>
                     <p>
@@ -136,7 +136,7 @@
                     <p>
                         <span class="red">[속편한 한끼]</span>
                         <span>
-                            <i class="fas fa-heart"></i>
+                            <i class="fas fa-heart" onclick="handleModal(4)"></i>
                         </span>
                     </p>
                     <p>
@@ -146,12 +146,12 @@
                 </li>
                 <li>
                     <a href="">
-                        <img src="img/best6.png" alt="yogaRing ">
+                        <img src="img/best6.png" alt="yogaRing">
                     </a>
                     <p>
                         <span class="red">[특가 20% 할인 이벤트]</span>
                         <span>
-                            <i class="fas fa-heart"></i>
+                            <i class="fas fa-heart" onclick="handleModal(5)"></i>
                         </span>
                     </p>
                     <p>
@@ -163,7 +163,7 @@
         </div>
         <div class="modal">
             <ul>
-                <li><img src="img/best1.png" alt="dietLunchBox"></li>
+                <li><img src="img/best1.png" alt="dietLunchBox" class="modalImg"></li>
                 <li>장바구니에 담겼습니다.</li>
             </ul>
             <p><a href="">이동 > </a></p>
@@ -178,7 +178,7 @@
                 <li><a href=""><img src="img/review4.png" alt="reviewImg"></a></li>
                 <li><a href=""><img src="img/review5.png" alt="reviewImg"></a></li>
             </ul>
-            <div class="top">
+            <div class="top" onclick="handleTop()">
                 TOP
             </div>
         </div>

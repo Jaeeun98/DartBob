@@ -188,6 +188,15 @@ section h1 {
 
 .fas {
     color:#ccc;
+    transition: all 1s;
+}
+
+.clickHeart {
+    color:red;
+}
+
+.fas:hover {
+    color:red;
 }
 
 /*modal*/
